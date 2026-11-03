@@ -179,6 +179,18 @@ export default {
     }
   },
 
+  // Backlog
+  backlog: {
+    title: 'バックログ管理',
+    description: '在庫不足を追跡して解消します',
+    loadFailed: 'バックログの読み込みに失敗しました: {message}',
+    itemsTitle: 'バックログ品目',
+    highPriority: '優先度：高',
+    mediumPriority: '優先度：中',
+    lowPriority: '優先度：低',
+    totalItems: 'バックログ品目数'
+  },
+
   // Reports
   reports: {
     title: '業績レポート',

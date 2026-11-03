@@ -179,6 +179,18 @@ export default {
     }
   },
 
+  // Backlog
+  backlog: {
+    title: 'Backlog Management',
+    description: 'Track and resolve inventory shortages',
+    loadFailed: 'Failed to load backlog: {message}',
+    itemsTitle: 'Backlog Items',
+    highPriority: 'High Priority',
+    mediumPriority: 'Medium Priority',
+    lowPriority: 'Low Priority',
+    totalItems: 'Total Backlog Items'
+  },
+
   // Reports
   reports: {
     title: 'Performance Reports',
